@@ -18,6 +18,14 @@
 		770A1ED319FAA9C700004BF7 /* RKTransitionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1ED219FAA9C700004BF7 /* RKTransitionLayout.m */; };
 		770A1ED719FAAB3300004BF7 /* RKPaperCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1ED619FAAB3300004BF7 /* RKPaperCollectionViewController.m */; };
 		770A1EDB19FAAC6700004BF7 /* RKCollectionViewLargeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1EDA19FAAC6700004BF7 /* RKCollectionViewLargeLayout.m */; };
+		770A1EDE19FAACBD00004BF7 /* RKCollectionViewSmallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1EDD19FAACBD00004BF7 /* RKCollectionViewSmallLayout.m */; };
+		770A1EE619FAAD0A00004BF7 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 770A1EE019FAAD0A00004BF7 /* 2.png */; };
+		770A1EE719FAAD0A00004BF7 /* fake-cell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 770A1EE119FAAD0A00004BF7 /* fake-cell@2x.png */; };
+		770A1EE819FAAD0A00004BF7 /* five.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 770A1EE219FAAD0A00004BF7 /* five.jpg */; };
+		770A1EE919FAAD0A00004BF7 /* one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 770A1EE319FAAD0A00004BF7 /* one.jpg */; };
+		770A1EEA19FAAD0A00004BF7 /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = 770A1EE419FAAD0A00004BF7 /* three.png */; };
+		770A1EEB19FAAD0A00004BF7 /* two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 770A1EE519FAAD0A00004BF7 /* two.jpg */; };
+		770A1EEF19FAAD7700004BF7 /* MainCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1EEE19FAAD7700004BF7 /* MainCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,16 @@
 		770A1ED619FAAB3300004BF7 /* RKPaperCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKPaperCollectionViewController.m; sourceTree = "<group>"; };
 		770A1ED919FAAC6700004BF7 /* RKCollectionViewLargeLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCollectionViewLargeLayout.h; sourceTree = "<group>"; };
 		770A1EDA19FAAC6700004BF7 /* RKCollectionViewLargeLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCollectionViewLargeLayout.m; sourceTree = "<group>"; };
+		770A1EDC19FAACBD00004BF7 /* RKCollectionViewSmallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCollectionViewSmallLayout.h; sourceTree = "<group>"; };
+		770A1EDD19FAACBD00004BF7 /* RKCollectionViewSmallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCollectionViewSmallLayout.m; sourceTree = "<group>"; };
+		770A1EE019FAAD0A00004BF7 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		770A1EE119FAAD0A00004BF7 /* fake-cell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fake-cell@2x.png"; sourceTree = "<group>"; };
+		770A1EE219FAAD0A00004BF7 /* five.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = five.jpg; sourceTree = "<group>"; };
+		770A1EE319FAAD0A00004BF7 /* one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one.jpg; sourceTree = "<group>"; };
+		770A1EE419FAAD0A00004BF7 /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		770A1EE519FAAD0A00004BF7 /* two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = two.jpg; sourceTree = "<group>"; };
+		770A1EED19FAAD7700004BF7 /* MainCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionView.h; sourceTree = "<group>"; };
+		770A1EEE19FAAD7700004BF7 /* MainCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +94,8 @@
 		770A1E9B19FAA5D400004BF7 = {
 			isa = PBXGroup;
 			children = (
-				770A1ED919FAAC6700004BF7 /* RKCollectionViewLargeLayout.h */,
-				770A1EDA19FAAC6700004BF7 /* RKCollectionViewLargeLayout.m */,
+				770A1EED19FAAD7700004BF7 /* MainCollectionView.h */,
+				770A1EEE19FAAD7700004BF7 /* MainCollectionView.m */,
 				770A1EA619FAA5D400004BF7 /* RKtimeLineCollectionView */,
 				770A1EC019FAA5D400004BF7 /* RKtimeLineCollectionViewTests */,
 				770A1EA519FAA5D400004BF7 /* Products */,
@@ -96,6 +114,8 @@
 		770A1EA619FAA5D400004BF7 /* RKtimeLineCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				770A1EEC19FAAD1100004BF7 /* ClassImage */,
+				770A1EDF19FAACD300004BF7 /* Base Layout */,
 				770A1ED819FAABD000004BF7 /* Base Collection Class */,
 				770A1ED419FAAADA00004BF7 /* Transition Class */,
 				770A1EAB19FAA5D400004BF7 /* AppDelegate.h */,
@@ -156,6 +176,32 @@
 				770A1ED619FAAB3300004BF7 /* RKPaperCollectionViewController.m */,
 			);
 			name = "Base Collection Class";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		770A1EDF19FAACD300004BF7 /* Base Layout */ = {
+			isa = PBXGroup;
+			children = (
+				770A1EDC19FAACBD00004BF7 /* RKCollectionViewSmallLayout.h */,
+				770A1EDD19FAACBD00004BF7 /* RKCollectionViewSmallLayout.m */,
+				770A1ED919FAAC6700004BF7 /* RKCollectionViewLargeLayout.h */,
+				770A1EDA19FAAC6700004BF7 /* RKCollectionViewLargeLayout.m */,
+			);
+			name = "Base Layout";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		770A1EEC19FAAD1100004BF7 /* ClassImage */ = {
+			isa = PBXGroup;
+			children = (
+				770A1EE019FAAD0A00004BF7 /* 2.png */,
+				770A1EE119FAAD0A00004BF7 /* fake-cell@2x.png */,
+				770A1EE219FAAD0A00004BF7 /* five.jpg */,
+				770A1EE319FAAD0A00004BF7 /* one.jpg */,
+				770A1EE419FAAD0A00004BF7 /* three.png */,
+				770A1EE519FAAD0A00004BF7 /* two.jpg */,
+			);
+			name = ClassImage;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -239,8 +285,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				770A1EEB19FAAD0A00004BF7 /* two.jpg in Resources */,
+				770A1EE719FAAD0A00004BF7 /* fake-cell@2x.png in Resources */,
+				770A1EE819FAAD0A00004BF7 /* five.jpg in Resources */,
 				770A1EB319FAA5D400004BF7 /* Main.storyboard in Resources */,
 				770A1EB819FAA5D400004BF7 /* LaunchScreen.xib in Resources */,
+				770A1EEA19FAAD0A00004BF7 /* three.png in Resources */,
+				770A1EE619FAAD0A00004BF7 /* 2.png in Resources */,
+				770A1EE919FAAD0A00004BF7 /* one.jpg in Resources */,
 				770A1EB519FAA5D400004BF7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,10 +314,12 @@
 				770A1EB019FAA5D400004BF7 /* ViewController.m in Sources */,
 				770A1ED319FAA9C700004BF7 /* RKTransitionLayout.m in Sources */,
 				770A1ED719FAAB3300004BF7 /* RKPaperCollectionViewController.m in Sources */,
+				770A1EDE19FAACBD00004BF7 /* RKCollectionViewSmallLayout.m in Sources */,
 				770A1EDB19FAAC6700004BF7 /* RKCollectionViewLargeLayout.m in Sources */,
 				770A1EAD19FAA5D400004BF7 /* AppDelegate.m in Sources */,
 				770A1EAA19FAA5D400004BF7 /* main.m in Sources */,
 				770A1ED019FAA8D100004BF7 /* RKTransitionController.m in Sources */,
+				770A1EEF19FAAD7700004BF7 /* MainCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
