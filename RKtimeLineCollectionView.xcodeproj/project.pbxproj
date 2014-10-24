@@ -14,6 +14,9 @@
 		770A1EB519FAA5D400004BF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 770A1EB419FAA5D400004BF7 /* Images.xcassets */; };
 		770A1EB819FAA5D400004BF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770A1EB619FAA5D400004BF7 /* LaunchScreen.xib */; };
 		770A1EC419FAA5D400004BF7 /* RKtimeLineCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1EC319FAA5D400004BF7 /* RKtimeLineCollectionViewTests.m */; };
+		770A1ED019FAA8D100004BF7 /* RKTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1ECF19FAA8D100004BF7 /* RKTransitionController.m */; };
+		770A1ED319FAA9C700004BF7 /* RKTransitionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1ED219FAA9C700004BF7 /* RKTransitionLayout.m */; };
+		770A1ED719FAAB3300004BF7 /* RKPaperCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1ED619FAAB3300004BF7 /* RKPaperCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,13 @@
 		770A1EBD19FAA5D400004BF7 /* RKtimeLineCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKtimeLineCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		770A1EC219FAA5D400004BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		770A1EC319FAA5D400004BF7 /* RKtimeLineCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKtimeLineCollectionViewTests.m; sourceTree = "<group>"; };
+		770A1ECD19FAA87100004BF7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		770A1ECE19FAA8D100004BF7 /* RKTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTransitionController.h; sourceTree = "<group>"; };
+		770A1ECF19FAA8D100004BF7 /* RKTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTransitionController.m; sourceTree = "<group>"; };
+		770A1ED119FAA9C700004BF7 /* RKTransitionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTransitionLayout.h; sourceTree = "<group>"; };
+		770A1ED219FAA9C700004BF7 /* RKTransitionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTransitionLayout.m; sourceTree = "<group>"; };
+		770A1ED519FAAB3300004BF7 /* RKPaperCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKPaperCollectionViewController.h; sourceTree = "<group>"; };
+		770A1ED619FAAB3300004BF7 /* RKPaperCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKPaperCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,8 @@
 		770A1E9B19FAA5D400004BF7 = {
 			isa = PBXGroup;
 			children = (
+				770A1ED519FAAB3300004BF7 /* RKPaperCollectionViewController.h */,
+				770A1ED619FAAB3300004BF7 /* RKPaperCollectionViewController.m */,
 				770A1EA619FAA5D400004BF7 /* RKtimeLineCollectionView */,
 				770A1EC019FAA5D400004BF7 /* RKtimeLineCollectionViewTests */,
 				770A1EA519FAA5D400004BF7 /* Products */,
@@ -81,6 +93,7 @@
 		770A1EA619FAA5D400004BF7 /* RKtimeLineCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				770A1ED419FAAADA00004BF7 /* Transition */,
 				770A1EAB19FAA5D400004BF7 /* AppDelegate.h */,
 				770A1EAC19FAA5D400004BF7 /* AppDelegate.m */,
 				770A1EAE19FAA5D400004BF7 /* ViewController.h */,
@@ -115,8 +128,21 @@
 			isa = PBXGroup;
 			children = (
 				770A1EC219FAA5D400004BF7 /* Info.plist */,
+				770A1ECD19FAA87100004BF7 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		770A1ED419FAAADA00004BF7 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				770A1ED119FAA9C700004BF7 /* RKTransitionLayout.h */,
+				770A1ED219FAA9C700004BF7 /* RKTransitionLayout.m */,
+				770A1ECE19FAA8D100004BF7 /* RKTransitionController.h */,
+				770A1ECF19FAA8D100004BF7 /* RKTransitionController.m */,
+			);
+			name = Transition;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +246,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				770A1EB019FAA5D400004BF7 /* ViewController.m in Sources */,
+				770A1ED319FAA9C700004BF7 /* RKTransitionLayout.m in Sources */,
+				770A1ED719FAAB3300004BF7 /* RKPaperCollectionViewController.m in Sources */,
 				770A1EAD19FAA5D400004BF7 /* AppDelegate.m in Sources */,
 				770A1EAA19FAA5D400004BF7 /* main.m in Sources */,
+				770A1ED019FAA8D100004BF7 /* RKTransitionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +443,7 @@
 				770A1EC919FAA5D400004BF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		770A1ECA19FAA5D400004BF7 /* Build configuration list for PBXNativeTarget "RKtimeLineCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +452,7 @@
 				770A1ECC19FAA5D400004BF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
