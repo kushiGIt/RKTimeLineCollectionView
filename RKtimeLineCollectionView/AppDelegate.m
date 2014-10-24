@@ -7,8 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "RKTransitionController.h"
+#import "RKCollectionViewSmallLayout.h"
+#import "MainCollectionView.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () <UINavigationControllerDelegate, RKTransitionControllerDelegate>
+
+@property (nonatomic) UINavigationController *navigationController;
+@property (nonatomic) RKTransitionController *transitionController;
+
 
 @end
 
@@ -17,12 +24,68 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    RKCollectionViewSmallLayout *smallLayout = [[RKCollectionViewSmallLayout alloc] init];
+    MainCollectionView*collectionViewController = [[MainCollectionView alloc] initWithCollectionViewLayout:smallLayout];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:collectionViewController];
+    self.navigationController.delegate = self;
+    self.navigationController.navigationBarHidden = YES;
+    
+    self.transitionController = [[RKTransitionController alloc] initWithCollectionView:collectionViewController.collectionView];
+    self.transitionController.delegate = self;
+    
+    self.window.rootViewController = self.navigationController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
+- (void)interactionBeganAtPoint:(CGPoint)point
+{
+    // Very basic communication between the transition controller and the top view controller
+    // It would be easy to add more control, support pop, push or no-op
+    MainCollectionView *presentingVC = (MainCollectionView *)[self.navigationController topViewController];
+    MainCollectionView *presentedVC = (MainCollectionView *)[presentingVC nextViewControllerAtPoint:point];
+    if (presentedVC!=nil)
+    {
+        [self.navigationController pushViewController:presentedVC animated:YES];
+    }
+    else
+    {
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+}
+- (id <UIViewControllerInteractiveTransitioning>)navigationController:(UINavigationController *)navigationController
+                          interactionControllerForAnimationController:(id <UIViewControllerAnimatedTransitioning>) animationController
+{
+    if (animationController==self.transitionController) {
+        return self.transitionController;
+    }
+    return nil;
+}
 
+
+- (id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
+                                   animationControllerForOperation:(UINavigationControllerOperation)operation
+                                                fromViewController:(UIViewController *)fromVC
+                                                  toViewController:(UIViewController *)toVC
+{
+    if (![fromVC isKindOfClass:[UICollectionViewController class]] || ![toVC isKindOfClass:[UICollectionViewController class]])
+    {
+        return nil;
+    }
+    if (!self.transitionController.hasActiveInteraction)
+    {
+        return nil;
+    }
+    
+    self.transitionController.navigationOperation = operation;
+    return self.transitionController;
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+    
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
