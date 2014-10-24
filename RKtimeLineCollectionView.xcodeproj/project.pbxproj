@@ -17,6 +17,7 @@
 		770A1ED019FAA8D100004BF7 /* RKTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1ECF19FAA8D100004BF7 /* RKTransitionController.m */; };
 		770A1ED319FAA9C700004BF7 /* RKTransitionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1ED219FAA9C700004BF7 /* RKTransitionLayout.m */; };
 		770A1ED719FAAB3300004BF7 /* RKPaperCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1ED619FAAB3300004BF7 /* RKPaperCollectionViewController.m */; };
+		770A1EDB19FAAC6700004BF7 /* RKCollectionViewLargeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1EDA19FAAC6700004BF7 /* RKCollectionViewLargeLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		770A1ED219FAA9C700004BF7 /* RKTransitionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTransitionLayout.m; sourceTree = "<group>"; };
 		770A1ED519FAAB3300004BF7 /* RKPaperCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKPaperCollectionViewController.h; sourceTree = "<group>"; };
 		770A1ED619FAAB3300004BF7 /* RKPaperCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKPaperCollectionViewController.m; sourceTree = "<group>"; };
+		770A1ED919FAAC6700004BF7 /* RKCollectionViewLargeLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKCollectionViewLargeLayout.h; sourceTree = "<group>"; };
+		770A1EDA19FAAC6700004BF7 /* RKCollectionViewLargeLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKCollectionViewLargeLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		770A1E9B19FAA5D400004BF7 = {
 			isa = PBXGroup;
 			children = (
+				770A1ED919FAAC6700004BF7 /* RKCollectionViewLargeLayout.h */,
+				770A1EDA19FAAC6700004BF7 /* RKCollectionViewLargeLayout.m */,
 				770A1EA619FAA5D400004BF7 /* RKtimeLineCollectionView */,
 				770A1EC019FAA5D400004BF7 /* RKtimeLineCollectionViewTests */,
 				770A1EA519FAA5D400004BF7 /* Products */,
@@ -257,6 +262,7 @@
 				770A1EB019FAA5D400004BF7 /* ViewController.m in Sources */,
 				770A1ED319FAA9C700004BF7 /* RKTransitionLayout.m in Sources */,
 				770A1ED719FAAB3300004BF7 /* RKPaperCollectionViewController.m in Sources */,
+				770A1EDB19FAAC6700004BF7 /* RKCollectionViewLargeLayout.m in Sources */,
 				770A1EAD19FAA5D400004BF7 /* AppDelegate.m in Sources */,
 				770A1EAA19FAA5D400004BF7 /* main.m in Sources */,
 				770A1ED019FAA8D100004BF7 /* RKTransitionController.m in Sources */,
