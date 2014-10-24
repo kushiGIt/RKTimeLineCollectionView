@@ -73,8 +73,6 @@
 		770A1E9B19FAA5D400004BF7 = {
 			isa = PBXGroup;
 			children = (
-				770A1ED519FAAB3300004BF7 /* RKPaperCollectionViewController.h */,
-				770A1ED619FAAB3300004BF7 /* RKPaperCollectionViewController.m */,
 				770A1EA619FAA5D400004BF7 /* RKtimeLineCollectionView */,
 				770A1EC019FAA5D400004BF7 /* RKtimeLineCollectionViewTests */,
 				770A1EA519FAA5D400004BF7 /* Products */,
@@ -93,7 +91,8 @@
 		770A1EA619FAA5D400004BF7 /* RKtimeLineCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				770A1ED419FAAADA00004BF7 /* Transition */,
+				770A1ED819FAABD000004BF7 /* Base Collection Class */,
+				770A1ED419FAAADA00004BF7 /* Transition Class */,
 				770A1EAB19FAA5D400004BF7 /* AppDelegate.h */,
 				770A1EAC19FAA5D400004BF7 /* AppDelegate.m */,
 				770A1EAE19FAA5D400004BF7 /* ViewController.h */,
@@ -133,7 +132,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		770A1ED419FAAADA00004BF7 /* Transition */ = {
+		770A1ED419FAAADA00004BF7 /* Transition Class */ = {
 			isa = PBXGroup;
 			children = (
 				770A1ED119FAA9C700004BF7 /* RKTransitionLayout.h */,
@@ -141,7 +140,17 @@
 				770A1ECE19FAA8D100004BF7 /* RKTransitionController.h */,
 				770A1ECF19FAA8D100004BF7 /* RKTransitionController.m */,
 			);
-			name = Transition;
+			name = "Transition Class";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		770A1ED819FAABD000004BF7 /* Base Collection Class */ = {
+			isa = PBXGroup;
+			children = (
+				770A1ED519FAAB3300004BF7 /* RKPaperCollectionViewController.h */,
+				770A1ED619FAAB3300004BF7 /* RKPaperCollectionViewController.m */,
+			);
+			name = "Base Collection Class";
 			path = ..;
 			sourceTree = "<group>";
 		};
