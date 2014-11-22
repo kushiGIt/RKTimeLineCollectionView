@@ -275,10 +275,10 @@
                     
                     progress = MIN(1.0, MAX(0.0, ABS(progress)));
                     NSLog(@"%f",progress);
-                    CGFloat offsetX = point.x - self.initialPinchPoint.x;
-                    CGFloat offsetY = (point.y - self.initialPinchPoint.y) + delta/M_PI;
+                    //CGFloat offsetX = point.x - self.initialPinchPoint.x;
+                    //CGFloat offsetY = (point.y - self.initialPinchPoint.y) + delta/M_PI;
                     
-                    UIOffset offsetToUse = UIOffsetMake(offsetX, offsetY);
+                    //UIOffset offsetToUse = UIOffsetMake(offsetX, offsetY);
                     //[self updateWithProgress:progress andOffset:offsetToUse];
                     [self updateWithProgress:progress];
                     

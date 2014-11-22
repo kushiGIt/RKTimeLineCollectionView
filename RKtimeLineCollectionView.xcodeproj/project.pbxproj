@@ -25,6 +25,16 @@
 		770A1EEA19FAAD0A00004BF7 /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = 770A1EE419FAAD0A00004BF7 /* three.png */; };
 		770A1EEB19FAAD0A00004BF7 /* two.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 770A1EE519FAAD0A00004BF7 /* two.jpg */; };
 		770A1EEF19FAAD7700004BF7 /* MainCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 770A1EEE19FAAD7700004BF7 /* MainCollectionView.m */; };
+		775FD6CB1A205DC700F5562F /* DataLifeTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FD6BB1A205DC700F5562F /* DataLifeTime.m */; };
+		775FD6CC1A205DC700F5562F /* GetAllTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FD6BD1A205DC700F5562F /* GetAllTimeLine.m */; };
+		775FD6CD1A205DC700F5562F /* GetInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FD6BF1A205DC700F5562F /* GetInformation.m */; };
+		775FD6CE1A205DC700F5562F /* ManageCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FD6C11A205DC700F5562F /* ManageCoreData.m */; };
+		775FD6D01A205DC700F5562F /* RKDataDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FD6C41A205DC700F5562F /* RKDataDownloader.m */; };
+		775FD6D11A205DC700F5562F /* RKDataLifeTimeModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 775FD6C51A205DC700F5562F /* RKDataLifeTimeModel.xcdatamodeld */; };
+		775FD6D21A205DC700F5562F /* RKGetFacebookTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FD6C81A205DC700F5562F /* RKGetFacebookTimeLine.m */; };
+		775FD6D31A205DC700F5562F /* RKGetTwitterTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 775FD6CA1A205DC700F5562F /* RKGetTwitterTimeLine.m */; };
+		778622741A17817B00A4E84A /* Submission.xib in Resources */ = {isa = PBXBuildFile; fileRef = 778622721A17817B00A4E84A /* Submission.xib */; };
+		778622751A17817B00A4E84A /* testImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 778622731A17817B00A4E84A /* testImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +78,23 @@
 		770A1EE519FAAD0A00004BF7 /* two.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = two.jpg; sourceTree = "<group>"; };
 		770A1EED19FAAD7700004BF7 /* MainCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainCollectionView.h; path = ../MainCollectionView.h; sourceTree = "<group>"; };
 		770A1EEE19FAAD7700004BF7 /* MainCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainCollectionView.m; path = ../MainCollectionView.m; sourceTree = "<group>"; };
+		775FD6BA1A205DC700F5562F /* DataLifeTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataLifeTime.h; sourceTree = "<group>"; };
+		775FD6BB1A205DC700F5562F /* DataLifeTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataLifeTime.m; sourceTree = "<group>"; };
+		775FD6BC1A205DC700F5562F /* GetAllTimeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAllTimeLine.h; sourceTree = "<group>"; };
+		775FD6BD1A205DC700F5562F /* GetAllTimeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAllTimeLine.m; sourceTree = "<group>"; };
+		775FD6BE1A205DC700F5562F /* GetInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetInformation.h; sourceTree = "<group>"; };
+		775FD6BF1A205DC700F5562F /* GetInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetInformation.m; sourceTree = "<group>"; };
+		775FD6C01A205DC700F5562F /* ManageCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageCoreData.h; sourceTree = "<group>"; };
+		775FD6C11A205DC700F5562F /* ManageCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageCoreData.m; sourceTree = "<group>"; };
+		775FD6C31A205DC700F5562F /* RKDataDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKDataDownloader.h; sourceTree = "<group>"; };
+		775FD6C41A205DC700F5562F /* RKDataDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKDataDownloader.m; sourceTree = "<group>"; };
+		775FD6C61A205DC700F5562F /* RKDataLifeTimeModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RKDataLifeTimeModel.xcdatamodel; sourceTree = "<group>"; };
+		775FD6C71A205DC700F5562F /* RKGetFacebookTimeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKGetFacebookTimeLine.h; sourceTree = "<group>"; };
+		775FD6C81A205DC700F5562F /* RKGetFacebookTimeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKGetFacebookTimeLine.m; sourceTree = "<group>"; };
+		775FD6C91A205DC700F5562F /* RKGetTwitterTimeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKGetTwitterTimeLine.h; sourceTree = "<group>"; };
+		775FD6CA1A205DC700F5562F /* RKGetTwitterTimeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKGetTwitterTimeLine.m; sourceTree = "<group>"; };
+		778622721A17817B00A4E84A /* Submission.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Submission.xib; sourceTree = "<group>"; };
+		778622731A17817B00A4E84A /* testImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +118,8 @@
 		770A1E9B19FAA5D400004BF7 = {
 			isa = PBXGroup;
 			children = (
+				775FD6D41A205DD400F5562F /* Get_TimeLine */,
+				778622731A17817B00A4E84A /* testImage.jpg */,
 				770A1EA619FAA5D400004BF7 /* RKtimeLineCollectionView */,
 				770A1EC019FAA5D400004BF7 /* RKtimeLineCollectionViewTests */,
 				770A1EA519FAA5D400004BF7 /* Products */,
@@ -208,6 +237,77 @@
 			name = RKTimeLineClass;
 			sourceTree = "<group>";
 		};
+		775FD6D41A205DD400F5562F /* Get_TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				775FD6BE1A205DC700F5562F /* GetInformation.h */,
+				775FD6BF1A205DC700F5562F /* GetInformation.m */,
+				775FD6D81A205E1E00F5562F /* CoreData */,
+				775FD6DA1A205E5600F5562F /* DataDownloader */,
+				775FD6D71A205E0800F5562F /* timeline */,
+				778622721A17817B00A4E84A /* Submission.xib */,
+			);
+			name = Get_TimeLine;
+			sourceTree = "<group>";
+		};
+		775FD6D51A205DEC00F5562F /* facebook_timeline */ = {
+			isa = PBXGroup;
+			children = (
+				775FD6C71A205DC700F5562F /* RKGetFacebookTimeLine.h */,
+				775FD6C81A205DC700F5562F /* RKGetFacebookTimeLine.m */,
+			);
+			name = facebook_timeline;
+			sourceTree = "<group>";
+		};
+		775FD6D61A205DFD00F5562F /* twitter_timeline */ = {
+			isa = PBXGroup;
+			children = (
+				775FD6C91A205DC700F5562F /* RKGetTwitterTimeLine.h */,
+				775FD6CA1A205DC700F5562F /* RKGetTwitterTimeLine.m */,
+			);
+			name = twitter_timeline;
+			sourceTree = "<group>";
+		};
+		775FD6D71A205E0800F5562F /* timeline */ = {
+			isa = PBXGroup;
+			children = (
+				775FD6BC1A205DC700F5562F /* GetAllTimeLine.h */,
+				775FD6BD1A205DC700F5562F /* GetAllTimeLine.m */,
+				775FD6D51A205DEC00F5562F /* facebook_timeline */,
+				775FD6D61A205DFD00F5562F /* twitter_timeline */,
+			);
+			name = timeline;
+			sourceTree = "<group>";
+		};
+		775FD6D81A205E1E00F5562F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				775FD6C01A205DC700F5562F /* ManageCoreData.h */,
+				775FD6C11A205DC700F5562F /* ManageCoreData.m */,
+				775FD6D91A205E3500F5562F /* ManageCoreDataObj */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		775FD6D91A205E3500F5562F /* ManageCoreDataObj */ = {
+			isa = PBXGroup;
+			children = (
+				775FD6BA1A205DC700F5562F /* DataLifeTime.h */,
+				775FD6BB1A205DC700F5562F /* DataLifeTime.m */,
+				775FD6C51A205DC700F5562F /* RKDataLifeTimeModel.xcdatamodeld */,
+			);
+			name = ManageCoreDataObj;
+			sourceTree = "<group>";
+		};
+		775FD6DA1A205E5600F5562F /* DataDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				775FD6C31A205DC700F5562F /* RKDataDownloader.h */,
+				775FD6C41A205DC700F5562F /* RKDataDownloader.m */,
+			);
+			name = DataDownloader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -295,6 +395,8 @@
 				770A1EB819FAA5D400004BF7 /* LaunchScreen.xib in Resources */,
 				770A1EEA19FAAD0A00004BF7 /* three.png in Resources */,
 				770A1EE619FAAD0A00004BF7 /* 2.png in Resources */,
+				778622741A17817B00A4E84A /* Submission.xib in Resources */,
+				778622751A17817B00A4E84A /* testImage.jpg in Resources */,
 				770A1EE919FAAD0A00004BF7 /* one.jpg in Resources */,
 				770A1EB519FAA5D400004BF7 /* Images.xcassets in Resources */,
 			);
@@ -314,12 +416,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775FD6D21A205DC700F5562F /* RKGetFacebookTimeLine.m in Sources */,
+				775FD6CB1A205DC700F5562F /* DataLifeTime.m in Sources */,
 				770A1ED319FAA9C700004BF7 /* RKTransitionLayout.m in Sources */,
 				770A1ED719FAAB3300004BF7 /* RKPaperCollectionViewController.m in Sources */,
 				770A1EDE19FAACBD00004BF7 /* RKCollectionViewSmallLayout.m in Sources */,
+				775FD6D31A205DC700F5562F /* RKGetTwitterTimeLine.m in Sources */,
 				770A1EDB19FAAC6700004BF7 /* RKCollectionViewLargeLayout.m in Sources */,
 				770A1EAD19FAA5D400004BF7 /* AppDelegate.m in Sources */,
 				770A1EAA19FAA5D400004BF7 /* main.m in Sources */,
+				775FD6CE1A205DC700F5562F /* ManageCoreData.m in Sources */,
+				775FD6CC1A205DC700F5562F /* GetAllTimeLine.m in Sources */,
+				775FD6CD1A205DC700F5562F /* GetInformation.m in Sources */,
+				775FD6D11A205DC700F5562F /* RKDataLifeTimeModel.xcdatamodeld in Sources */,
+				775FD6D01A205DC700F5562F /* RKDataDownloader.m in Sources */,
 				770A1ED019FAA8D100004BF7 /* RKTransitionController.m in Sources */,
 				770A1EEF19FAAD7700004BF7 /* MainCollectionView.m in Sources */,
 			);
@@ -526,6 +636,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		775FD6C51A205DC700F5562F /* RKDataLifeTimeModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				775FD6C61A205DC700F5562F /* RKDataLifeTimeModel.xcdatamodel */,
+			);
+			currentVersion = 775FD6C61A205DC700F5562F /* RKDataLifeTimeModel.xcdatamodel */;
+			path = RKDataLifeTimeModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 770A1E9C19FAA5D400004BF7 /* Project object */;
 }

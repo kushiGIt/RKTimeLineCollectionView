@@ -8,6 +8,7 @@
 
 #import "RKPaperCollectionViewController.h"
 #import "RKTransitionLayout.h"
+#import "GetInformation.h"
 
 #define MAX_COUNT 20
 #define CELL_ID @"CELL_ID"
@@ -41,8 +42,11 @@
     cell.layer.cornerRadius = 4;
     cell.clipsToBounds = YES;
     
-    UIImageView *backgroundView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"2"]];
-    cell.backgroundView = backgroundView;
+    NSArray*topLevelObjects = [[NSBundle mainBundle] loadNibNamed:@"Submission" owner:self options: nil];
+    UIView*view = [topLevelObjects objectAtIndex: 0];
+    
+    //UIImageView *backgroundView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"2"]];
+    [cell.contentView addSubview:view];
     
     return cell;
 }
